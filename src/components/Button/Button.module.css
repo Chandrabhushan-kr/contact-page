@@ -1,0 +1,47 @@
+.primary_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary_btn:hover {
+  background-color: #0056b3;
+}
+
+.outline_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.outline_btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+  width: 212px;
+}
+
+button svg {
+  font-size: 20px; /* Adjust icon size */
+}
